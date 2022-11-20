@@ -17,7 +17,7 @@ def pregunta_01():
     """
 
     # Cargue el dataset digits
-    digits = datasets.load_digits()
+    digits = datasets.load_digits(return_X_y=False)
 
     # Imprima los nombres de la variable target del dataset
     #print(digits['target'])
